@@ -1,0 +1,8 @@
+{
+  "layout": "layout2",
+  "typography": { "family": "Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif", "weight": 700, "size": 18 },
+  "button": { "radius": 16, "shadow": "lg", "align": "center", "bg": "#111827", "color": "#ffffff", "strokeColor": "#111827", "strokeWeight": 0 },
+  "gallery": { "align": "center", "spacing": 12, "radius": 12 },
+  "general": { "cardRadius": 20, "containerPadding": 24, "sectionBg": "#ffffff" },
+  "stroke": { "color": "#e5e7eb", "weight": 1 }
+}
