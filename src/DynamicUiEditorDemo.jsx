@@ -507,10 +507,24 @@ export default function DynamicUiEditorDemo() {
               <div className="text-xs text-gray-500">Live preview • JSON export • Layout switcher</div>
             </div>
           </div>
-          <div className="hidden sm:flex items-center gap-2">
-            <a href="#" className="text-xs text-gray-600 hover:text-gray-900">Docs</a>
-            <a href="#" className="text-xs text-gray-600 hover:text-gray-900">GitHub</a>
-          </div>
+         <div className="hidden sm:flex items-center gap-2">
+  <a
+    href="https://github.com/dakshsharma02/dynamic-ui-editor"
+    target="_blank"
+    className="text-xs text-gray-600 hover:text-gray-900"
+  >
+    GitHub
+  </a>
+
+  <a
+    href="https://github.com/YourUsername/dakshsharma02#readme"
+    target="_blank"
+    className="text-xs text-gray-600 hover:text-gray-900"
+  >
+    Docs
+  </a>
+</div>
+
         </div>
       </header>
 
@@ -533,3 +547,4 @@ export default function DynamicUiEditorDemo() {
     </div>
   );
 }
+
