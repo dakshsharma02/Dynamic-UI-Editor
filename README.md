@@ -134,4 +134,5 @@ Future Improvements
 Made with React and Tailwind CSS.
 
 Your Coder - Daksh Sharma 
+
 Thank you ❤️ 
