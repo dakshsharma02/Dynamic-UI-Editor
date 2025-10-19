@@ -517,7 +517,7 @@ export default function DynamicUiEditorDemo() {
   </a>
 
   <a
-    href="https://github.com/YourUsername/dakshsharma02#readme"
+    href="https://github.com/dakshsharma02/dynamic-ui-editor#readme"
     target="_blank"
     className="text-xs text-gray-600 hover:text-gray-900"
   >
@@ -547,4 +547,5 @@ export default function DynamicUiEditorDemo() {
     </div>
   );
 }
+
 
