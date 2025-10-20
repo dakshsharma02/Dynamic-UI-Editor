@@ -21,7 +21,7 @@ Features
 
 •⁠  ⁠Live editing panel – customizes UI in real time  
 •⁠  ⁠Two layouts – can switch between Layout 1 and Layout 2  
-•⁠  ⁠Editable options include fonts, font size, font weight, button styling, colors, border radius, spacing, layout padding, gallery settings, etc.  
+•⁠  ⁠Editable options include fonts, font size, font weight, button styling, colors, border radius, spacing, layout padding,         gallery settings, etc.  
 •⁠  ⁠Export UI settings as a JSON file  
 •⁠  ⁠Import saved JSON to restore a theme  
 •⁠  ⁠Automatically saves changes in localStorage  
@@ -35,14 +35,17 @@ Component API and Configurable Props
 The entire UI is controlled through one configuration object called cfg. It contains the following properties:
 
 Layout:
+
 •⁠  ⁠layout – chooses between "layout1" or "layout2"
 
 Typography:
+
 •⁠  ⁠typography.family – font family (Inter, Poppins, Roboto etc.)  
 •⁠  ⁠typography.weight – font weight from 100 to 900  
 •⁠  ⁠typography.size – base font size in pixels (10–60px)
 
 Button:
+
 •⁠  ⁠button.radius – rounded corners of button  
 •⁠  ⁠button.shadow – button shadow depth (none, small, medium, large)  
 •⁠  ⁠button.align – alignment of button (left, center, right)  
@@ -52,16 +55,19 @@ Button:
 •⁠  ⁠button.strokeWeight – button border width
 
 Gallery:
+
 •⁠  ⁠gallery.align – alignment of image gallery (left, center, right)  
 •⁠  ⁠gallery.spacing – space between gallery images (px)  
 •⁠  ⁠gallery.radius – border radius of gallery images
 
 General Section Styling:
+
 •⁠  ⁠general.cardRadius – rounding of the whole section or card  
 •⁠  ⁠general.containerPadding – padding inside the section  
 •⁠  ⁠general.sectionBg – background color of the preview area
 
 Borders / Stroke:
+
 •⁠  ⁠stroke.color – border color for the card or layout  
 •⁠  ⁠stroke.weight – border thickness in pixels
 
